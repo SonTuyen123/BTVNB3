@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8e4e5"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="#c4c4c4"
+        android:gravity="center"
+        android:paddingRight="40dp"
+        android:text="1"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/view3"
+        android:layout_toRightOf="@+id/view1"
+        android:background="#961d89"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="2"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/view1"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/view1"
+        android:background="#c4c4c4"
+        android:gravity="center"
+        android:paddingRight="40dp"
+        android:text="3"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/view4"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/view3"
+        android:background="#813335"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/view5"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/view3"
+        android:layout_toRightOf="@+id/view4"
+        android:background="#bc5f5f"
+        android:gravity="center"
+        android:text="5"
+        android:textColor="@android:color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/view6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/view3"
+        android:layout_alignParentRight="true"
+        android:background="#260606"
+        android:gravity="center"
+        android:text="6"
+        android:textColor="@android:color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/view7"
+        android:layout_width="80dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/view5"
+        android:layout_toRightOf="@+id/view4"
+        android:background="#e42f2f"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:text="7"
+        android:textColor="@android:color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/view8"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/view10"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/view7"
+        android:background="#9ba562"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="8"
+        android:textColor="@android:color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/view9"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/view7"
+        android:layout_alignParentBottom="true"
+        android:background="#c4c4c4"
+        android:gravity="center"
+        android:paddingRight="30dp"
+        android:text="9"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/view10"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/view7"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/view7"
+        android:background="#246175"
+        android:gravity="center"
+        android:paddingRight="30dp"
+        android:text="10"
+        android:textColor="@android:color/white"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>
