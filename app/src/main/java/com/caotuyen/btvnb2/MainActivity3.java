@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity3 extends AppCompatActivity {
-private Button btnBai1, btnBai2,btnBai3,btnBai4;
+private Button btnBai1, btnBai2,btnBai3,btnBai4,btnBai5,btnBai6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,7 +16,9 @@ private Button btnBai1, btnBai2,btnBai3,btnBai4;
         btnBai1 = (Button) findViewById(R.id.btn_bai1);
         btnBai2 = (Button) findViewById(R.id.btn_bai2);
         btnBai3 = (Button) findViewById(R.id.btn_bai3);
-        btnBai4 = (Button)findViewById(R.id.btn_bai4);
+        btnBai4 = (Button) findViewById(R.id.btn_bai4);
+        btnBai5 = (Button) findViewById(R.id.btn_bai5);
+        btnBai6 = (Button) findViewById(R.id.btn_bai6);
 
         btnBai1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,5 +48,20 @@ private Button btnBai1, btnBai2,btnBai3,btnBai4;
                 startActivity(intent4);
             }
         });
+        btnBai5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent5 = new Intent(MainActivity3.this, MainActivity6.class);
+                startActivity(intent5);
+            }
+        });
+        btnBai6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent6 = new Intent(MainActivity3.this, MainActivity7.class);
+                startActivity(intent6);
+            }
+        });
+
     }
 }
